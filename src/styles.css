@@ -1,0 +1,92 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;trftyfZr2g
+} */
+#root {
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.ant-layout {
+  height: 100vh;
+}
+.code-box-demo {
+  text-align: center;
+}
+.ant-layout-header {
+  background: white;
+  box-shadow: 4px 0px 16px rgba(30, 30, 30, 0.08);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+  background: orange;
+  margin-top: 53%;
+  border-radius: 8px;
+}
+
+.content-form {
+  /* margin-top:5%; */
+  height: 100vh;
+  width: 100%;
+}
+
+.form {
+  padding: 0 60px 0 60px;
+}
+.loginForm {
+  margin-left: 16%;
+  width: 100%;
+  padding-top: 17%;
+}
+.title-welcome {
+  font-size: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+  margin-right: 30%;
+}
+.cred {
+  color: grey;
+  text-align: center;
+  margin-right: 30%;
+}
+
+.ant-col-9 {
+  height: 100vh;
+}
+.ant-col-15 {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 765px) {
+  .ant-row {
+    display: grid !important;
+    /* flex-direction: column; */
+    grid-template-columns: 160% !important;
+  }
+  .ant-col-9 {
+    margin-left: 5%;
+  }
+  .ant-col-15 {
+    width: 150%;
+  }
+  .title-welcome {
+    margin-right: 0;
+  }
+  .cred {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons {
+    display: none;
+  }
+}
